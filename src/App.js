@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import NavBar from './components/NavBar';
 
 function App() {
@@ -6,17 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1 style={{ fontFamily: 'masiva-black' }}> Chrome Stars</h1>
+        <h1 style={{ fontFamily: 'masiva-black' }}> Tour Tee </h1>
       </header>
       <br />
     </div>
