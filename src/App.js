@@ -1,15 +1,23 @@
 import './App.scss';
 import NavBar from './components/NavBar';
+import ShirtInfo from './components/ShirtInfo';
+import ShirtImages from './components/ShirtImages';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <NavBar />
-        <h1 style={{ fontFamily: 'masiva-black' }}> Chrome Stars</h1>
-        <h1 style={{ fontFamily: 'masiva-black' }}> Tour Tee </h1>
+        <NavBar/>        
       </header>
-      <br />
+      <div className="shirt-grid">
+        <div className="shirt-images" >
+            <ShirtImages/>
+        </div>
+        <div className="shirt-info">
+            <ShirtInfo/>
+        </div>
+      </div>
+      <br/> <br/>
     </div>
   );
 }

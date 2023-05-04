@@ -1,6 +1,26 @@
+@font-face {
+  font-family: 'stolzl-bold';
+  src: url('./font/Stolzl-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'stolzl-medium';
+  src: url('./font/Stolzl-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'stolzl-regular';
+  src: url('./font/Stolzl-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  margin: 0;
-  font-family: 'masiva-bold';
+  font-family: 'stolzl-bold';
   background-color: black;
 }
 
@@ -9,6 +29,19 @@ code {
     monospace;
 }
 
+p {
+  font-size: 10px;
+  line-height: 0.5;
+}
 
+h1 {
+  line-height: 0.5;
+}
 
+.gray {
+  color: #BFBFBF;
+}
 
+.white {
+  color: white;
+}
