@@ -16,8 +16,16 @@ function App() {
         <div className="shirt-info">
             <ShirtInfo/>
         </div>
+        <footer> 
+        <br/> <br/> <br/> <br/>
+        <br/> <br/> <br/> <br/>
+        <br/> <br/> <br/> <br/>
+        <br/> <br/> <br/> <br/>
+        <br/> <br/> <br/> <br/>
+        <p className='white'> TEST FOOTER </p>
+        </footer>
       </div>
-      <br/> <br/>
+      
     </div>
   );
 }
