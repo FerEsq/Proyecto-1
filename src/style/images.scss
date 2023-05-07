@@ -1,4 +1,70 @@
-.front-back{
-    width: 112.5%;
+.image1{
     margin-left: 7.85%;
+    position: relative;
+    cursor: pointer;
+
+    .front-back{
+        width: 122%;
+    }
+
+    &:hover .lens {
+        opacity: 1; 
+      }
 }
+
+.lens{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+    left: 10px;
+    width: 3.5%;
+    opacity: 0;
+}
+
+.bottom-images {
+    margin-left: 7.85%;
+    width: 110%;
+    .image2 {
+        position: relative;
+        cursor: pointer;
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    
+        .front{
+            width: 100%;
+        }
+    
+        .lens{
+            width: 5.8%;
+        }
+    
+        &:hover .lens {
+            opacity: 1; 
+          }
+    }
+
+    .image3 {
+        position: relative;
+        cursor: pointer;
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    
+        .back{
+            width: 100%;
+        }
+    
+        .lens{
+            width: 5.8%;
+        }
+    
+        &:hover .lens {
+            opacity: 1; 
+          }
+    }
+    
+}
+
+
+

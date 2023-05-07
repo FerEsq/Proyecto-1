@@ -106,27 +106,27 @@ function ShirtInfo() {
         </tr>
         <tr>
           <td></td>
-          <td className='table-font'>S</td>
-          <td className='table-font'>M</td>
-          <td className='table-font'>L</td>
-          <td className='table-font'>XL</td>
-          <td className='table-font'>2XL</td>
+          <td className='table-font'> S </td>
+          <td className='table-font'> M </td>
+          <td className='table-font'> L </td>
+          <td className='table-font'> XL </td>
+          <td className='table-font'> 2XL </td>
         </tr>
         <tr>
-          <td className='table-font'>BODY LENGTH</td>
-          <td className='table-font'>28</td>
-          <td className='table-font'>29</td>
-          <td className='table-font'>30</td>
-          <td className='table-font'>31</td>
-          <td className='table-font'>32</td>
+          <td className='table-font'> BODY LENGTH </td>
+          <td className='table-font'> 28 </td>
+          <td className='table-font'> 29 </td>
+          <td className='table-font'> 30 </td>
+          <td className='table-font'> 31 </td>
+          <td className='table-font'> 32 </td>
         </tr>
         <tr>
-          <td className='table-font'>CHEST WIDTH</td>
-          <td className='table-font'>18</td>
-          <td className='table-font'>20</td>
-          <td className='table-font'>22</td>
-          <td className='table-font'>24</td>
-          <td className='table-font'>26</td>
+          <td className='table-font'> CHEST WIDTH </td>
+          <td className='table-font'> 18 </td>
+          <td className='table-font'> 20 </td>
+          <td className='table-font'> 22 </td>
+          <td className='table-font'> 24 </td>
+          <td className='table-font'> 26 </td>
         </tr>
         </table>
 
