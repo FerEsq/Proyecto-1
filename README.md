@@ -49,9 +49,8 @@ Aquí se encuentran las fuenets del proyecto. La fuente utilizada es **Stolzl**
 ### media
 Aquí se encuentra la multimedia del proyecto (imagenes, logos, etc...).
 
-   - #### Formatos utilizado
+  - #### Formatos utilizados
     - svg para iconos
-    - png para el logo principal y las imagenes de las camisas.
 
 ### styles
 Aquí se encuentran los estilos del proyecto en scss.
