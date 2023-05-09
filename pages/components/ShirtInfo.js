@@ -1,6 +1,6 @@
 import React from 'react'
+import Image from 'next/image';
 import { useState } from 'react';
-import '../style/info.scss';
 import Gpay from '../media/Google-Pay.svg';
 
 function ShirtInfo() {
@@ -82,7 +82,7 @@ function ShirtInfo() {
           <button className='add-cart'> Add to cart </button>
           <button className='google-pay'> 
             Buy with 
-            <img src={Gpay} className='google-pay-logo'/>
+            <Image src={Gpay} className='google-pay-logo'/>
           </button>
           <br/>
           <u className='options'> More payment options </u>
@@ -95,41 +95,40 @@ function ShirtInfo() {
       </div>
 
       <div className='size-table'>
-      <table border="1px" cellpadding="0" cellspacing="0">
-        <tr>
-          <td className='table-font'></td>
-          <td className='table-font'></td>
-          <td className='table-font'></td>
-          <td className='table-font'></td>
-          <td className='table-font'></td>
-          <td className='table-font'></td>
-        </tr>
-        <tr>
-          <td></td>
-          <td className='table-font'> S </td>
-          <td className='table-font'> M </td>
-          <td className='table-font'> L </td>
-          <td className='table-font'> XL </td>
-          <td className='table-font'> 2XL </td>
-        </tr>
-        <tr>
-          <td className='table-font'> BODY LENGTH </td>
-          <td className='table-font'> 28 </td>
-          <td className='table-font'> 29 </td>
-          <td className='table-font'> 30 </td>
-          <td className='table-font'> 31 </td>
-          <td className='table-font'> 32 </td>
-        </tr>
-        <tr>
-          <td className='table-font'> CHEST WIDTH </td>
-          <td className='table-font'> 18 </td>
-          <td className='table-font'> 20 </td>
-          <td className='table-font'> 22 </td>
-          <td className='table-font'> 24 </td>
-          <td className='table-font'> 26 </td>
-        </tr>
+        <table border="1px">
+          <tr>
+            <td className='table-font'></td>
+            <td className='table-font'></td>
+            <td className='table-font'></td>
+            <td className='table-font'></td>
+            <td className='table-font'></td>
+            <td className='table-font'></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td className='table-font'> S </td>
+            <td className='table-font'> M </td>
+            <td className='table-font'> L </td>
+            <td className='table-font'> XL </td>
+            <td className='table-font'> 2XL </td>
+          </tr>
+          <tr>
+            <td className='table-font'> BODY LENGTH </td>
+            <td className='table-font'> 28 </td>
+            <td className='table-font'> 29 </td>
+            <td className='table-font'> 30 </td>
+            <td className='table-font'> 31 </td>
+            <td className='table-font'> 32 </td>
+          </tr>
+          <tr>
+            <td className='table-font'> CHEST WIDTH </td>
+            <td className='table-font'> 18 </td>
+            <td className='table-font'> 20 </td>
+            <td className='table-font'> 22 </td>
+            <td className='table-font'> 24 </td>
+            <td className='table-font'> 26 </td>
+          </tr>
         </table>
-
       </div>
 
     </div>

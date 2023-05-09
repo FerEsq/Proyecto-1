@@ -1,5 +1,5 @@
 import React from 'react'
-import '../style/footer.scss';
+import Image from 'next/image';
 
 import Amex from '../media/Amex.svg';
 import Apple from '../media/Apple.svg';
@@ -32,17 +32,17 @@ function Footer() {
         <br/> 
         <div className='payment-options'>
             <ul>
-                <li> <img src={Amex} className='amex'/> </li>
-                <li> <img src={Apple} className='apple'/> </li>
-                <li> <img src={Diners} className='diners'/> </li>
-                <li> <img src={Discover} className='discover'/> </li>
-                <li> <img src={Meta} className='meta'/> </li>
-                <li> <img src={Google} className='google'/> </li>
-                <li> <img src={Mastercard} className='mastercard'/> </li>
-                <li> <img src={PayPal} className='paypal'/> </li>
-                <li> <img src={Shop} className='shop'/> </li>
-                <li> <img src={Venmo} className='venmo'/> </li>
-                <li> <img src={Visa} className='visa'/> </li>
+                <li> <Image src={Amex} className='img'/> </li>
+                <li> <Image src={Apple} className='img'/> </li>
+                <li> <Image src={Diners} className='img'/> </li>
+                <li> <Image src={Discover} className='img'/> </li>
+                <li> <Image src={Meta} className='img'/> </li>
+                <li> <Image src={Google} className='img'/> </li>
+                <li> <Image src={Mastercard} className='img'/> </li>
+                <li> <Image src={PayPal} className='img'/> </li>
+                <li> <Image src={Shop} className='img'/> </li>
+                <li> <Image src={Venmo} className='img'/> </li>
+                <li> <Image src={Visa} className='img'/> </li>
             </ul>
         </div>
 
@@ -58,7 +58,7 @@ function Footer() {
             <p className='link'> support@manheadmerch.com </p>
         </div>
         <br/>
-        <img src={Manhead} className='m-logo'/>
+        <Image src={Manhead} className='m-logo'/>
         <br/> <br/> <br/>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
+import Image from 'next/image';
 import { useState } from 'react';
-import '../style/product.scss';
 
 function Product(details) {
     const [hover, setHover] = useState(false);
@@ -15,11 +15,12 @@ function Product(details) {
 
   return (
     <div className='product'>
-        <div className='img-square'> 
-            <img 
+        <div className='Image-square'> 
+            <Image 
                 src={hover ? details.image2 : details.image1}
                 onMouseOver={handleHover}
                 onMouseLeave={handleLeave}
+                className='img'
             />
         </div>
         <p className='product-name'> {details.name} </p>

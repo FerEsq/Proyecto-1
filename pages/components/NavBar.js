@@ -1,7 +1,8 @@
 import React from 'react'
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
-import '../style/navbar.scss';
-import logo from '../media/marina_logo.avif';
+
+import logo from '../media/Logo.png';
 
 function NavBar() {
     const [showed, setShowed] = useState(true);
@@ -23,7 +24,7 @@ function NavBar() {
     <div>
         <nav className="navbar" style={{ display: showed ? 'flex' : 'none' }}>
             <div className="logo">
-                <img src={logo} alt="Logo" />
+                <Image src={logo} alt="Logo" className='img'/>
             </div>
 
             <div className="socialIcons">

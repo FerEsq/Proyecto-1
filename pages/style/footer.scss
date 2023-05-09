@@ -50,8 +50,9 @@ p {
         vertical-align: middle;
     }
 
-    img {
+    .img {
         width: 35px;
+        height: 22px;
         margin-right: 20px;
         margin-bottom: 20px;
     }
@@ -73,6 +74,7 @@ p {
 .m-logo {
     cursor: pointer;
     width: 68px;
+    height: 30px;
 }
 
 /* Cuando la pantalla se hace pequeña */
