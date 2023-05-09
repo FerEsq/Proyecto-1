@@ -45,7 +45,7 @@ function Index({props}) {
             <br/> <br/> <br/> <br/> <br/>
             <footer> 
                 <Footer/>
-                </footer>
+            </footer>
             
         </div>
     </>
