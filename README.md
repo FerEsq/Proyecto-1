@@ -3,6 +3,8 @@
 
 Este proyecto recrea la página [Chrome Stars Tour Tee](https://usshop.marinaofficial.co.uk/products/chrome-stars-tour-tee?variant=40288876920915)
 
+Enlace para acceder al sitio web del proyecto: https://p1-stw.web.app
+
 
 ## Inicialización del proyecto
 
@@ -21,7 +23,10 @@ Se utilizó para crear el proyecto y los componentes del mismo.
 Se utilizó para crear el Server Side Rendering del proyecto.
 
 ### [Vercel](https://vercel.com)
-Se utilizó para publicar el proyecto en un sitio web.
+Se utilizó para publicar el proyecto (Next) en un sitio web.
+
+### [Firebase](https://firebase.google.com/?hl=es)
+Se utilizó para publicar el proyecto (React) en un sitio web.
 
 ### [Sass](https://sass-lang.com)
 Se utilizó para aplicarle estilos al proyecto.
