@@ -11,7 +11,16 @@ import Sparkles2 from './media/Sparkles-2.png';
 import Primadonna from './media/Primadonna.png';
 import Dreams from './media/Dreams.png';
 
-function Index({props}) {
+export const getServerSideProps = async () => {
+  const othersTitle = "You may also like"
+  const price = "$40.00 USD"
+  const sparkles = "Sparkles Tour Tee"
+  const primadonna = "Primadonna Tee"
+  const dreams = "Dreams Frame Tee"
+  return { props: { othersTitle, price, sparkles, primadonna, dreams } }
+}
+
+function Index({othersTitle, price, sparkles, primadonna, dreams}) {
 
   return (
     <>
@@ -30,16 +39,16 @@ function Index({props}) {
                     <ShirtImages/>
                 </div>
                 <div className="shirt-info">
-                    <ShirtInfo suppressHydrationWarning/>
+                    <ShirtInfo/>
                 </div>
             </div>
             <div className='other-shirts'>
                 <br/>
-                <h2 className='others-title'> You may also like </h2>
+                <h2 className='others-title'> {othersTitle} </h2>
                 <div className='products'>
-                    <Product image1={Sparkles1} image2={Sparkles2} name="Sparkles Tour Tee" price="$40.00 USD"/>
-                    <Product image1={Primadonna} image2={Primadonna} name="Primadonna Tee" price="$40.00 USD"/>
-                    <Product image1={Dreams} image2={Dreams} name="Dreams Frame Tee" price="$40.00 USD"/>
+                    <Product image1={Sparkles1} image2={Sparkles2} name={sparkles} price={price}/>
+                    <Product image1={Primadonna} image2={Primadonna} name={primadonna} price={price}/>
+                    <Product image1={Dreams} image2={Dreams} name={dreams} price={price}/>
                 </div>
             </div>
             <br/> <br/> <br/> <br/> <br/>

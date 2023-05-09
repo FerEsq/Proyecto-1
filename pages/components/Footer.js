@@ -15,10 +15,10 @@ import Visa from '../media/Visa.svg';
 
 import Manhead from '../media/Manhead.svg';
 
-function Footer() {
+function Footer({ quick }) {
   return (
     <div>
-        <h2> Quick links </h2>
+        <h2> Quick links</h2>
         <div className='footer-options'> 
             <ul>
                 <li> <p className='link'> Search </p> </li>
