@@ -27,6 +27,8 @@
     margin-right: 4%;
   }
 
+  /* Cuando la pantalla se hace pequeña */
+
   @media (max-width: 746px) {
     .shirt-grid {
       display: flex;
@@ -45,19 +47,45 @@
       width: 100%;
       float: left;
     }
+    
   }
-}
-
-.white{
-  color:white;
 }
 
 .other-shirts {
   clear: both;
+  width: 95.5%;
+  margin-left: 4.5%;
+
+  .others-title{
+    margin-top: 70px;
+    color:white;
+    font-size: 24px;
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+  }
+
+  .products{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+  }
+
+  /* Cuando la pantalla se hace pequeña */
+
+  @media (max-width: 746px) {
+    .products{
+      display: block;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+    }
+  }
 }
 
 footer {
   clear: both;
+  color:white;
   text-align: center;
 }
 

@@ -1,11 +1,27 @@
 import React from 'react'
+import { useState, useEffect } from 'react';
 import '../style/navbar.scss';
 import logo from '../media/marina_logo.avif';
 
 function NavBar() {
+    const [showed, setShowed] = useState(true);
+    const [scroll, setScroll] = useState(0);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const currentScroll = window.pageYOffset;
+            const visible = scroll > currentScroll || currentScroll < 10;
+            setShowed(visible);
+            setScroll(currentScroll);
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, [scroll]);
+
   return (
     <div>
-        <nav className="navbar">
+        <nav className="navbar" style={{ display: showed ? 'flex' : 'none' }}>
             <div className="logo">
                 <img src={logo} alt="Logo" />
             </div>
