@@ -14,6 +14,24 @@ En el directorio del proyecto, correr el comando:
 Este corre el proyecto en modo *developer* en http://localhost:3000.
 
 
+## Estructura del proyecto
+
+### components
+Aquí se encuentran los componentes del proyecto.
+
+### font
+Aquí se encuentran las fuenets del proyecto. La fuente utilizada es **Stolzl**
+
+### media
+Aquí se encuentra la multimedia del proyecto (imagenes, logos, etc...).
+
+### styles
+Aquí se encuentran los estilos del proyecto en scss.
+
+### index.js
+Contiene la estructura principal del proyecto
+
+
 ## Tecnologías utilizadas
 
 ### [React](https://es.react.dev)
