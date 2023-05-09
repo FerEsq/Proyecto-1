@@ -53,6 +53,7 @@ p {
     img {
         width: 35px;
         margin-right: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -73,6 +74,42 @@ p {
     cursor: pointer;
     width: 68px;
 }
+
+/* Cuando la pantalla se hace pequeña */
+
+@media (max-width: 746px) {
+    h2 {
+        display: flex;
+        margin-left: 8%;
+    }
+
+    .footer-options {
+        width: 92%;
+        margin: 0 auto;
+        margin-left: 8%;
+    
+        ul {
+            list-style: none; 
+        }
+          
+        li {
+            display: flex;
+            margin-right: 20px; 
+            margin-bottom: 0px;
+        }
+    }
+
+    .payment-options {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .footer-info {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 8px;
+    }
+  }
 
 
 

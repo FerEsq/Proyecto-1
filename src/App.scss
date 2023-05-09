@@ -69,16 +69,14 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    flex-wrap: wrap;
   }
 
   /* Cuando la pantalla se hace pequeña */
 
   @media (max-width: 746px) {
-    .products{
-      display: block;
-      justify-content: flex-start;
-      align-items: center;
-      width: 100%;
+    .others-title{
+      margin-left: -10px;
     }
   }
 }

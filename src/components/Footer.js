@@ -47,7 +47,6 @@ function Footer() {
         </div>
 
         <div className='footer-info'> 
-            <br/>
             <p> © 2023 </p> 
             <p className='link'> Marina Us </p>
             <p> Powered by </p>
