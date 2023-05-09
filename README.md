@@ -9,7 +9,9 @@
 ## Inicialización del proyecto
 
   En el directorio del proyecto, correr el comando:
-  `npm run dev`
+  ```bash
+    npm run dev
+  ```
 
   Este corre el proyecto en modo *developer* en http://localhost:3000.
 
