@@ -35,7 +35,7 @@
     - Esta muestra la información de la camisa de la página (nombre, precio, tallas, etc...).
 
 ### font
-Aquí se encuentran las fuenets del proyecto. La fuente utilizada es [Stolzl](https://fonts.adobe.com/fonts/stolzl)
+Aquí se encuentran las fuenets del proyecto. La fuente utilizada es [Stolzl](https://fonts.adobe.com/fonts/stolzl).
 
   - #### Stolzl Bold
     - Fuente negrilla.
