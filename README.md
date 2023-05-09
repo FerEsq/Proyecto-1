@@ -26,7 +26,7 @@
     - Es la barra de navegación principal del proyecto.
   
   - #### Product.js
-    - Ess la card para colocar los otros productos de la página. Este recibe las dos imagenes del producto, el nombre del producto y su precio.
+    - Es la card para colocar los otros productos de la página. Este recibe las dos imagenes del producto, el nombre del producto y su precio.
   
   - #### ShirtImages.js
     - Esta muestra las tres imagenes principales de la camisa de la página.
@@ -37,11 +37,39 @@
 ### font
 Aquí se encuentran las fuenets del proyecto. La fuente utilizada es **Stolzl**
 
+  - #### Stolzl Bold
+    - Fuente negrilla.
+
+  - #### Stolzl Regular
+    - Fuente semi-negrilla.
+
+  - #### Stolzl Medium
+    - Fuente sin negrilla.  
+
 ### media
 Aquí se encuentra la multimedia del proyecto (imagenes, logos, etc...).
 
+   - #### Formatos utilizados
+    - **svg**: Para iconos
+    - **png**: Para el logo principal y las imagenes de las camisas.
+
 ### styles
 Aquí se encuentran los estilos del proyecto en scss.
+
+  - #### footer.scss
+    - Contiene los estilos para el componente *Footer*
+   
+  - #### navbar.scss
+    - Contiene los estilos para el componente *NavBar*
+  
+  - #### product.scss
+    - Contiene los estilos para el componente *Product*
+  
+  - #### images.scss
+    - Contiene los estilos para el componente *ShirtImages*
+  
+  - #### info.scss
+    - Contiene los estilos para el componente *ShirtInfo*
 
 ### index.js
 Contiene la estructura principal del proyecto.
