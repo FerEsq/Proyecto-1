@@ -26,7 +26,7 @@ function Index({othersTitle, price, sparkles, primadonna, dreams}) {
     <>
       <Head>
           <meta charset="utf-8"/>
-          <title> Chrome Stars Tour Tee – Marina US </title>
+          <title> Chrome Stars Tour Tee </title>
           <link rel="icon" href="/favicon.ico"/>
       </Head>
 
