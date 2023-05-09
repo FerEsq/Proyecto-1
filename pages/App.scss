@@ -1,0 +1,90 @@
+.App-header {
+  background-color: black;
+  min-height: 15vh;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shirt-grid {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .shirt-images {
+    margin-top: 3%;
+    width: 53%;
+    float: left;
+  }
+  
+  .shirt-info {
+    margin-top: 2.05%;
+    width: 28.9%;
+    float: right;
+    margin-right: 4%;
+  }
+
+  /* Cuando la pantalla se hace pequeña */
+
+  @media (max-width: 746px) {
+    .shirt-grid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .shirt-images{
+      width: 80%;
+      float: left;
+    }
+
+    .shirt-info {
+      clear: both;
+      margin-top: 3%;
+      width: 100%;
+      float: left;
+    }
+    
+  }
+}
+
+.other-shirts {
+  clear: both;
+  width: 95.5%;
+  margin-left: 4.5%;
+
+  .others-title{
+    margin-top: 70px;
+    color:white;
+    font-size: 24px;
+    letter-spacing: 0.7px;
+    margin-bottom: 30px;
+  }
+
+  .products{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  /* Cuando la pantalla se hace pequeña */
+
+  @media (max-width: 746px) {
+    .others-title{
+      margin-left: -10px;
+    }
+  }
+}
+
+footer {
+  clear: both;
+  color:white;
+  text-align: center;
+}
+
+

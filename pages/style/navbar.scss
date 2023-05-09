@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  padding: 0 30px;
+  background-color: #000;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  .logo {
+    .img {
+      cursor: pointer;
+      margin-top: 7px;
+      width: 190px;
+      height: 38px;
+      margin-left: 32.5px;
+    }
+  }
+
+  svg {
+    cursor: pointer;
+    margin-top: 3px;
+    transition: all 0.2s ease-in-out;
+
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  .socialIcons {
+    display: flex;
+    align-items: center;
+    margin-left: 739px;
+
+    .twitter{
+      width: 12px;
+      height: 12px;
+      margin-top: 0px;
+      margin-left: -34px;
+    } 
+
+    .facebook{
+      width: 12px;
+      height: 12px;
+      margin-top: 0px;
+      margin-left: -34px;
+    } 
+
+    .instagram{
+      width: 12px;
+      height: 12px;
+      margin-top: 0px;
+      margin-left: -34px;
+    }    
+
+    .youtube{
+      width: 12px;
+      height: 12px;
+      margin-top: 0px;
+    }
+
+  }
+
+  .actionIcons {
+    display: flex;
+    align-items: center;
+
+    .search{
+      width: 29px;
+      height: 29px;
+      margin-right: 20px;
+    }
+
+    .user{
+      width: 20px;
+      height: 20px;
+      margin-right: 12px;
+    }
+
+    .shopbag{
+      width: 44px;
+      height: 44px;
+      margin-right: 20px;
+    }
+
+  }
+}
+

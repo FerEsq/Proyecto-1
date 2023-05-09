@@ -1,0 +1,51 @@
+.product{
+    cursor: pointer;
+    width: 269px;
+    margin-right: 8px;
+
+    .Image-square {
+        background-color: #F3F3F3;
+        width: 269px;
+        height: 269px;
+    
+        .img {
+            max-width: 100%; 
+            height: auto; 
+        }
+    }
+    
+    .product-name {
+        margin-top: 16px;
+        color: white;
+        font-size: 13.2px;
+        letter-spacing: 0.5px;
+        font-family: 'stolzl-bold';
+    }
+    
+    .product-price {
+        color: white;
+        font-size: 15px;
+        font-family: 'stolzl-regular';
+        letter-spacing: 1.5px;
+        font-stretch: 10%;
+        margin-top: -2px;
+    }
+}
+
+.product:hover {
+
+    .img {
+        transform: scale(1.03);     
+        transition: transform 0.5s ease;       
+    }
+
+    .product-name {
+        text-decoration: underline;
+    }
+}
+
+
+
+
+
+
