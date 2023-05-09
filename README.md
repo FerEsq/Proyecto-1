@@ -6,14 +6,10 @@ Este proyecto recrea la página [Chrome Stars Tour Tee](https://usshop.marinaoff
 
 ## Inicialización del proyecto
 
-### React
 En el directorio del proyecto, correr el comando:
-`npm start`
+`npm run dev`
 
-Este corre el proyecto en modo *developer*.
-
-### Next
-`npm pendiente`
+Este corre el proyecto en modo *developer* en http://localhost:3000.
 
 
 ## Tecnologías utilizadas
@@ -28,4 +24,7 @@ Se utilizó para crear el Server Side Rendering del proyecto.
 Se utilizó para publicar el proyecto en un sitio web.
 
 ### [Sass](https://sass-lang.com)
+Se utilizó para aplicarle estilos al proyecto.
+
+### [JavaScript](https://www.javascript.com)
 Se utilizó para aplicarle estilos al proyecto.
