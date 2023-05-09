@@ -27,4 +27,4 @@ Se utilizó para publicar el proyecto en un sitio web.
 Se utilizó para aplicarle estilos al proyecto.
 
 ### [JavaScript](https://www.javascript.com)
-Se utilizó para la programaci+on del proyecto.
+Se utilizó para la programación del proyecto.
