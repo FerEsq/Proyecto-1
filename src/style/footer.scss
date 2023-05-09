@@ -10,6 +10,14 @@ p {
     letter-spacing: 0.5px;
 }
 
+.link{
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+        color: #B76B79;
+    }
+}
+
 .footer-options {
     width: 800px;
     margin: 0 auto;
@@ -24,14 +32,44 @@ p {
         margin-right: 20px; 
         margin-bottom: -10px;
     }
+}
 
-    .link{
-        cursor: pointer;
-        &:hover{
-            text-decoration: underline;
-            color: #B76B79;
-        }
+.payment-options{
+    ul {
+        list-style: none; 
+        padding: 0; 
+        vertical-align: middle;
+    }
+      
+    li {
+        display: inline-block; 
+        margin-right: -8px; 
+        margin-bottom: -10px;
+        vertical-align: middle;
     }
 
+    img {
+        width: 35px;
+        margin-right: 20px;
+    }
 }
+
+.footer-info {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 8px;
+
+    p {
+        font-size: 14px;
+        display: inline-block;
+        margin: 0;
+        margin-right: 4px;
+    }
+}
+
+.m-logo {
+    width: 68px;
+}
+
+
 
