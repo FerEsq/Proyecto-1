@@ -60,7 +60,7 @@ function Footer() {
         </div>
         <br/>
         <img src={Manhead} className='m-logo'/>
-        <br/> <br/>
+        <br/> <br/> <br/>
     </div>
   )
 }
