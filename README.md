@@ -20,19 +20,19 @@
   Aquí se encuentran los componentes del proyecto.
 
   - #### Footer.js
-  Contiene la sección de "Quick links" de la página junto con la información de la misma.
+    - Contiene la sección de "Quick links" de la página junto con la información de la misma.
    
   - #### NavBar.js
-  Es la barra de navegación principal del proyecto.
+    - Es la barra de navegación principal del proyecto.
   
   - #### Product.js
-  Ess la card para colocar los otros productos de la página. Este recibe las dos imagenes del producto, el nombre del producto y su precio.
+    - Ess la card para colocar los otros productos de la página. Este recibe las dos imagenes del producto, el nombre del producto y su precio.
   
   - #### ShirtImages.js
-  Esta muestra las tres imagenes principales de la camisa de la página.
+    - Esta muestra las tres imagenes principales de la camisa de la página.
   
   - #### ShirtInfo.js
-  Esta muestra la información de la camisa de la página (nombre, precio, tallas, etc...).
+    - Esta muestra la información de la camisa de la página (nombre, precio, tallas, etc...).
 
 ### font
 Aquí se encuentran las fuenets del proyecto. La fuente utilizada es **Stolzl**
